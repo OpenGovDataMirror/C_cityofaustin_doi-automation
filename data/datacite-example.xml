@@ -1,0 +1,49 @@
+<ns0:resource xmlns:ns0="http://datacite.org/schema/kernel-3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://datacite.org/schema/kernel-3 http://schema.datacite.org/meta/kernel-3/metadata.xsd">
+    <ns0:identifier identifierType="DOI">10.5072/example-full</ns0:identifier>
+    <ns0:creators>
+        <ns0:creator>
+            <ns0:creatorName></ns0:creatorName>
+            <ns0:affiliation>City of Austin, Texas</ns0:affiliation>
+        </ns0:creator>
+    </ns0:creators>
+    <ns0:titles>
+        <ns0:title xml:lang="en-us">Full DataCite XML Example</ns0:title>
+        <ns0:title titleType="Subtitle" xml:lang="en-us">Demonstration of DataCite Properties.</ns0:title>
+    </ns0:titles>
+    <ns0:publisher>City of Austin, Texas Open Data</ns0:publisher>
+    <ns0:publicationYear></ns0:publicationYear>
+    <ns0:subjects>
+        <ns0:subject schemeURI="http://dewey.info/" subjectScheme="dewey" xml:lang="en-us"></ns0:subject>
+    </ns0:subjects>
+    <ns0:dates>
+        <ns0:date dateType="Updated"></ns0:date>
+    </ns0:dates>
+    <ns0:language>en-us</ns0:language>
+    <ns0:alternateIdentifiers>
+        <ns0:alternateIdentifier alternateIdentifierType="URL">http://schema.datacite.org/schema/meta/kernel-3.1/example/datacite-example-full-v3.1.xml</ns0:alternateIdentifier>
+    </ns0:alternateIdentifiers>
+    <ns0:relatedIdentifiers>
+        <ns0:relatedIdentifier relatedIdentifierType="URL" relatedMetadataScheme="citeproc+json" relationType="HasMetadata" schemeURI="https://github.com/citation-style-language/schema/raw/master/csl-data.json">http://data.datacite.org/application/citeproc+json/10.5072/example-full</ns0:relatedIdentifier>
+        <ns0:relatedIdentifier relatedIdentifierType="arXiv" relationType="IsReviewedBy">arXiv:0706.0001</ns0:relatedIdentifier>
+    </ns0:relatedIdentifiers>
+    <ns0:sizes>
+        <ns0:size>3KB</ns0:size>
+    </ns0:sizes>
+    <ns0:formats>
+        <ns0:format>application/xml</ns0:format>
+    </ns0:formats>
+    <ns0:version>3.1</ns0:version>
+    <ns0:rightsList>
+        <ns0:rights rightsURI="http://www.opendatacommons.org/licenses/pddl/1.0/">Public Domain Dedication and License 1.0</ns0:rights>
+    </ns0:rightsList>
+    <ns0:descriptions>
+        <ns0:description descriptionType="Abstract" xml:lang="en-us">XML example of all DataCite Metadata Schema v3.1 properties.</ns0:description>
+    </ns0:descriptions>
+    <ns0:geoLocations>
+        <ns0:geoLocation>
+            <ns0:geoLocationPoint>30.2672 97.7431</ns0:geoLocationPoint>
+            <ns0:geoLocationBox>41.090 -71.032 42.893 -68.211</ns0:geoLocationBox>
+            <ns0:geoLocationPlace>City of Austin, Texas</ns0:geoLocationPlace>
+        </ns0:geoLocation>
+    </ns0:geoLocations>
+</ns0:resource>
